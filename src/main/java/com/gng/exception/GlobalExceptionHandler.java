@@ -2,13 +2,14 @@ package com.gng.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.io.IOException;
 
-
+/**
+ * Global Exception handler to centralize and model exceptions.
+ */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

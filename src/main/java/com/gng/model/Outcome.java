@@ -5,6 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Model for Outcome.
+ */
 @Getter
 @Setter
 @AllArgsConstructor
